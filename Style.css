@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    background-image: linear-gradient(to right, red,  rgb(80, 178, 80), yellow);
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+font-weight: 900;
+}
+.container2{
+height: 60px;
+width: 60%;
+background-color: rgb(154, 156, 162);
+margin: auto;
+text-align: center;
+margin-top: 20px;
+border: 2px solid red;
+border-radius: 15px;
+list-style-position: inside;
+}
+.container3{
+    height: 121px;
+    width: 100%;
+    background-color: aqua;
+border: 2px solid red;
+ border-radius: 10px;
+ margin-top:20px ;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+text-align: center;
+ justify-content: space-around;
+}
+.item1{
+height: 57px;
+width: 80%;
+border: 2px solid green;
+border-radius: 8px;
+margin-left: 38px;
+}
+.container4{
+    background-image: linear-gradient(to right, red,  yellow, red);
+    height: 45px;
+    width: 100%;
+  text-align: center;
+    text-decoration: underline red;
+    font-size: 20px;
+font-weight: 900;
+}
+.container5{
+height: 200px;
+width: 100%;
+background-image: radial-gradient(  rgb(49, 49, 158),rgb(18, 165, 107));
+border: 2px solid green;
+display: flex;
+
+justify-content: center;
+justify-content: space-evenly;
+}
+.item2{
+height:100px;
+width:15% ;
+background-color: rgb(254, 254, 2);
+margin: auto;
+border: 3px solid red;
+border-radius: 10px;
+text-decoration: underline;
+text-align: center;
+color: red;
+font-weight: bolder;
+}
+.container6{
+height: 250px;
+width: 100%;
+border: 2PX solid rgb(133, 129, 129);
+display: grid;
+gap: 10px;
+grid-template-columns: auto auto auto auto ;
+text-align: center;
+color: white;
+}
+.div1{
+    background-color: red;
+    grid-column:1/-1 ;
+    font-weight: bolder;
+font-size: 24px;
+  }
+.div2{
+background-color: rgb(34, 157, 89);
+grid-column: 1/2;
+grid-row: 2;
+font-weight: bolder;
+font-size: 24px;
+
+}
+.div3{
+    background-color: rgb(179, 0, 255);
+    grid-column: 2/3;
+grid-row: 2;
+font-weight: bolder;
+font-size: 24px;
+}
+.div4{
+    background-color: rgb(45, 17, 157);
+    grid-column: 3/4;
+    grid-row: 2;
+    font-weight: bolder;
+font-size: 17px;
+}
+.div5{
+    background-color: rgb(10, 10, 10);
+    grid-column: 4/5;
+    grid-row: 2/4;
+  color: white;
+   list-style-position: inside;
+}
+.div6{
+    background-color: rgb(222, 170, 14);
+    grid-column: 1/4;
+    grid-row: 3;
+    font-weight: bolder;
+font-size: 17px;
+}
+.div7{
+    background-color: rgb(148, 196, 196);
+    grid-column: 1/-1;
+    grid-row: 4;
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+}
